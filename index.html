@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidheshwar Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/heat.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+       
+          <img src="./assets/images/dpp.jpg" alt="Sidheshwar Shelke" width="210" style="border-radius:10%">
+       
+
+        <div class="info-content">
+          <h1 class="name" title="Sidheshwar Shelke">Sidheshwar Shelke</h1>
+
+          <p class="title">Software developer</p><br>
+          <p class="title">Data Analytics</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:shidheshshelke17@gmail.com" class="contact-link">shidheshshelke17@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name='logo-linkedin'></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">linkedin</p>
+
+              <a href="https://www.linkedin.com/in/sidheshwarshelke/" class="contact-link">https://www.linkedin.com/in/sidheshwarshelke/</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919158964370" class="contact-link">+91 9158964370</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="03/04/2002">April 03, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pune, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sidheshwarshelke/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/sidheshwer.shelke.9/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_sidheshwar__/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            "Passionate Data Analytics fresher with a strong foundation in statistical analysis and data manipulation
+            with strong programing languages. Handle the Databases Using tools.
+            Dedicated to extracting actionable insights from complex datasets to drive informed decision-making. Eager
+             to contribute fresh perspectives and collaborate in a dynamic team environment."
+          </p>
+
+          <p>
+            "Passionate Software developer with a strong foundation in coding and problem-solving. 
+            Eager to contribute my skills and learn in a collaborative team environment. Committed to continuous 
+            growth and delivering high-quality solutions."
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software developer</h4>
+
+                <p class="service-item-text">A software developer designs, creates, and maintains 
+                  computer programs and applications to meet specific user or business needs.</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                <p class="service-item-text">
+                  Data analytics involves extracting actionable insights and patterns from raw data to 
+                  inform decision-making and drive business improvements.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Data science is the interdisciplinary field that uses scientific methods, 
+                  algorithms, processes, and systems to extract knowledge and insights from structured and unstructured data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Exploring New World...</h4>
+
+                <p class="service-item-text">
+                  "Crafting innovative code solutions to push the boundaries of technology and create exceptional user experiences."
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Skills</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/coding.png" alt="Programing languages" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Programing languages</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    <b>Primary Languages :</b><br>&emsp;Python, Java, C, CSS, JavaScript, HTML 5, CSS
+                    <br><b>Web Technologies :</b><br> &emsp;HTML, CSS, PHP, JavaScript
+                    <br><b>Structural Query Language :</b><br> &emsp;MySQL, PgSQL, Oracle Database
+                    <br><b>Operating System :</b><br>&emsp;Windows , Linux, Ubuntu
+                    <br><b>Tools :</b><br> &emsp;Pycharm, Eclips, Netbeans, Vs Code Editor, Oracle SQL developer
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/web.png" alt="Web development" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Web Development</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    <b>Front-End Framework :</b><br> &emsp;HTML 5, CSS, <br>&emsp;<b>Libraries:</b> React, Angular
+                    <br><b>Back-End Programing Languages :</b><br>&emsp;Python(Django, Flask), JavaScript(Node.js), PHP, Java(Spring)
+                    <br><b>Databases and SQL:</b> Understanding of databases (SQL and NoSQL) &emsp; is crucial for storing and retrieving data from web applications.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/database.png" alt="Database" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Database</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Database Management Systems(DBMS) &emsp;&emsp; Relational Databases<br>
+                    SQL Databases &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Data Modeling<br>
+                    Data Analysis&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Database Design<br>
+                    Data Visualization &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Data Handling<br>
+                    <br><b>Tools: </b>Oracle SQL developer, XAMPP, SQL
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/skill.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Skills</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Technical Knowledge  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;            Programing Language<br>
+                    Problem Solving Skills  &emsp;&emsp;&emsp;&emsp;&emsp;Data Manupulaltion & Analysis<br>
+                    Time Management  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;         Machine Learning<br>
+                    Adaptability & learning Ability  &emsp;&emsp;&emsp;&emsp;         Data Visualization<br>
+                    Analytical Thinking  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  Statistical & Mathematics
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/coding.png" alt="Programing Languages" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Sidheshwar_Skills</h4>
+
+              <time datetime="13-08-2023">Recently Updated</time>
+
+              <div data-modal-text>
+                <p>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Languages</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/python.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/java.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/database.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/web.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/c.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+              <img src="./assets/images/cpp.png" alt="client logo">
+            
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/html.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+              <img src="./assets/images/js.png" alt="client logo">
+            
+            </li>
+
+            <li class="clients-item">
+              
+              <img src="./assets/images/php.png" alt="client logo">
+            
+            </li>
+
+            <li class="clients-item">
+              
+              <img src="./assets/images/analytics.png" alt="client logo">
+            
+          </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h5 timeline-item-title">Savitribai Phule Pune University, Pune<br> <h4> Samarth College of Computer Science</h4></h3></h4>              
+              <span>2020 - 2023</span>
+              
+              <p class="timeline-text">
+                "Completed a Bachelor's degree in Computer Science with distinction, demonstrating expertise in programming, algorithms, and software development."
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Adarsh Junior College</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                "Outstanding achievement in the 12th grade HSC exams, demonstrating exceptional dedication and academic excellence."
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shree Sainath Highschool </h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                "Obtained outstanding results in SSC 10th examinations, showcasing exceptional academic prowess and dedication."
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science</h4>
+
+              <span>March 2023 — Present</span>
+
+              <p class="timeline-text">
+                "Data science internship at 3RI Technologies and dive into real-world projects. Gain hands-on experience in data analysis,
+                 machine learning, and visualization. Collaborate with experts, sharpen your skills, and pave the way for a
+                successful career in data science."
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analytics</h4>
+
+              <span>March 2022 - July 2022</span>
+
+              <p class="timeline-text">
+                Interned at College Rankar in Data Analytics. Gained hands-on experience in data manipulation, visualization, and interpretation. 
+                Collaborated on projects to extract insights and support decision-making. Strengthened analytical skills and 
+                contributed to real-world data-driven solutions.
+              </p>
+
+            </li>
+          <!--
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+          -->
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programing Language and Technogies</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development </h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analytics and Visualization</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database Handling</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning and Data Science</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud service and Open Source contribution</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+             <!--
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            -->
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Help Desk" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Help Desk</h3>
+
+                <p class="project-category">Software</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Blog Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LearnWithU( Bloging Analysis ) </h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Houser</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Activiser</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.372281950376!2d73.81488690576543!3d18.596924738211015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8eabf6f8161%3A0x306824bbdeaf63e5!2sShrushti%20Chowk%2C%20Prabhat%20Nagar%2C%20Pimple%20Gurav%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411061!5e0!3m2!1sen!2sin!4v1691756787092!5m2!1sen!2sin" 
+              width="400" height="300" style="border:0;" loading="lazy">
+            </iframe> 
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:shidheshshelke17@gmail.com" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" >
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" >
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message"></textarea>
+
+            <button class="form-btn" type="submit" >
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

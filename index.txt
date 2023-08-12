@@ -1,0 +1,111 @@
+sidheshwar Shelke 
+
+# sidebar
+
+alt = Sidheshwar Shelke
+Sidheshwar Shelke
+Software developer
+Data Analytics
+
+Show Contacts
+
+Email
+shidheshshelke17@gmail.com
+
+Phone
++91 9158964370
+
+Birthday
+April 03, 2002
+
+Location
+Pune, Maharashtra, India
+
+# navbar
+
+About
+Resume
+Portfolio
+Contact
+
+# about
+
+About me
+
+"Passionate Data Analytics fresher with a strong foundation in statistical analysis and data manipulation with strong programing languages. Handle the Databases Using tools. Dedicated to extracting actionable insights from complex datasets to drive informed decision-making. Eager to contribute fresh perspectives and collaborate in a dynamic team environment."
+
+"Passionate Software developer with a strong foundation in coding and problem-solving. Eager to contribute my skills and learn in a collaborative team environment. Committed to continuous growth and delivering high-quality solutions."
+
+## service
+
+What i'm doing
+
+alt = design icon
+Software Devloper
+
+alt = Web development icon
+Data Analytics
+
+alt = mobile app icon
+Data Science
+
+alt = camera icon
+Explore New World...
+
+## testimonials
+
+Skill
+
+alt = Programing Language
+
+alt = Web Devlopment
+
+alt = Database
+
+alt = Skills
+
+## clients
+
+Programing Language
+
+alt = Language logo
+
+
+
+# resume
+
+Resume
+
+Education
+
+Sabitribai Phule Pune University
+2020 - 2023
+Bsc computer Scince
+
+Adarsh Junior College
+2019 - 2020
+
+Shree Sainath Highschool
+2017 - 2018
+
+Experience
+
+Data Scince
+2023 — Present
+
+Data Analytics
+ march 2022 - june 2022
+
+
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
